@@ -1,5 +1,10 @@
+import java.sql.SQLOutput;
+
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
+    public static void main(String[] args){
+        Aluno aluno = new Aluno("12345",20,0);
+
+        System.out.println("Matricula: " + aluno.getMatricula() + " Nota: " + aluno.getNota();
+        System.out.println(aluno);
+      }
 }
